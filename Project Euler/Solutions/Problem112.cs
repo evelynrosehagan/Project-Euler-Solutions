@@ -53,10 +53,10 @@ namespace Solutions
                 }
             }
             Console.WriteLine("Answer is " + current.ToString());
-            Console.ReadKey();
-
-
+            
             stop.Stop();
+            Console.WriteLine("Time to complete is " + (float)stop.ElapsedMilliseconds / 1000);
+            Console.ReadKey();
         }
     }
 }
