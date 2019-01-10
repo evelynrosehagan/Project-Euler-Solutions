@@ -13,6 +13,8 @@ namespace Project_Euler.Solutions
         {
             Stopwatch stop = new Stopwatch();
             stop.Start();
+            string problem = "Project Euler: Problem 21\n";
+            Console.WriteLine(problem);
             int result = 0;
             for(int i = 1; i < 10000; i++)
             {

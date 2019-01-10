@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Solutions
+namespace Project_Euler.Solutions
 {
     class Problem112
     {
         public static void P112_Main()
         {
+            string problem = "Project Euler: Problem 112\n";
+            Console.WriteLine(problem);
             Stopwatch stop = new Stopwatch();
             stop.Start();
 
